@@ -10,6 +10,7 @@ U - m*m orthogonal matrix
 S - m*n diagonal matrix   
 V - n*n orthogonal matrix   
 The diagnal in the S matrix is the sigular value of A'A, in decreasing order.    
+U is the eigen vector of AA', V is the eigen vector of A'A,    
 We can use the first r sigular value to approach the original matrix.   
 A ~ U * S * V',  where U (m*r), S(r*r), V(r*n).
 
